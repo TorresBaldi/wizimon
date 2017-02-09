@@ -1,0 +1,106 @@
+---------------------------------------------------------
+
+
+WIZimon
+http://torresbaldi.com/juegos/wizimon/
+
+
+2012 - Torres Baldi Studio
+http://torresbaldi.com/
+
+
+---------------------------------------------------------
+
+
+----- PENDIENTES -----
+
+- Agregar sonido de Record 
+- Si es posible cambiar sonidos de botones.
+- PC: Pedir confirmacion antes de cerrar.
+- WIZ: Corregir pulsaciones erroneas. (corregido, falta probar y confirmar)
+
+
+
+----- CHANGELOG -----
+
+[v0.6.1]
+--- General:
+ - Se actualiza el sistema de releases (deberian ser mas consistentes de ahora en adelante)
+--- CANNOO:
+ - Se actualiza icono y title bar.
+
+
+[v0.6]
+--- General:
+ - Agregada release para Cannoo. (No probada).
+ - Agregado control de volumen. teclas Q y W en PC.
+ - Agregado sonido de chicharra en game over.
+ - Se ajustan niveles de volumen de los archivos.
+ - Luego de un tiempo de game over, se pasa automaticamente a records
+   (antes requeria presionar una tecla).
+ - Se guardan datos (records y volumen) al salir del juego.
+--- WIZ/CANNOO:
+ - Se saca el frameskip.
+
+[v0.5a]
+--- General:
+ - CORREGIDO Bug en deteccion de pulsaciones (gracias Futublock).
+
+[v0.5]
+--- General:
+- Agregado modo SPRNIT:
+	- La secuencia se muestra un poco mas rapido.
+	- Se debe ingresar antes de que se acabe el tiempo.
+	- Se muestra tiempo restante en display.
+- Agragada musica a los menus.
+- Eliminada animacion de los botones del menu.
+- Agregados records "default".
+- Las nuevas versiones se empaquetan automaticamente (mediante .bat)
+- Se corrige el conteo de puntos (ahora se cuentan rondas correctas)
+- Se corrige error en la mezcla de la secuencia en el modo shuffle.
+- Cambios internos en la logica del juego.
+
+[v0.4]
+--- General:
+- Se reorganiza y comenta el codigo. (algo)
+- Corregido salteo de intro.
+- Se agrega opcion para salir de la partida
+- Cambios en pantalla de records:
+  Ahora informa con un alert() antes de pedir el ingreso del nombre.
+  Si el nombre se deja vacio, no lo guarda.
+- Cambios en el teclado:
+  Se agrega texto descriptivo.
+  Se agrega fondo para ver lo que se ingresa.
+  Se muestra caracteres restantes.
+  Se agranda la fuente del texto escrito.
+--- WIZ:
+- Se elimina resaltado de botones en menu principal
+
+[v0.3]
+--- General:
+- Se agrega nuevo modo de juego SHUFFLE.
+  Se cambia un valor de la secuencia cada 3 turnos.
+- Se mejora el menu principal.
+- Se muestra version en Splash Screen.
+- Se permite saltear la presentacion (no la primera vez).
+- Se agregan botones de ACEPTAR/CANCELAR globales.
+    Aceptar: mouse.left, SELECT, B.
+    Cancelar: MENU, X.
+- Se guardan/cargan datos globales al inicio.
+- Se agrega pantalla de records, mostrando records reales.
+- Se guardan los records en archivo.
+- Se permite el ingreso de nombre con teclado en pantalla
+- Se agregan fuentes.
+
+[v0.2]
+--- General:
+- Se agregan logos de intro (logos temporales).
+- Mejoras cosmeticas en splash-screen y cursor.
+- Se agrega menu principal.
+--- WIZ:
+-Se agrega icono.
+-Se agrega runtime de Bennu para evitar problemas de incompatibilidad.
+
+[v0.1]
+- Release Inicial.
+- disponible modo de juego clasico.
